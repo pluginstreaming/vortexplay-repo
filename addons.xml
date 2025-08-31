@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="plugin.video.VortexPlay" name="[B][COLOR orange]Vortex[/COLOR] [COLOR white]Play[/COLOR][/B]" version="1.3.1" provider-name="[B][COLOR orange]BRAZ FERREIRA[/COLOR][COLOR blue]PluginStreaming[/COLOR][/B]">
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>VortexPlay - Addon futurista para streaming de canais, filmes e séries</summary>
+            <language>pt_BR</language>
+            <description>Addon completo e futurista para assistir canais ao vivo, filmes e séries de TV com interface moderna e intuitiva em português brasileiro. Versão pré-configurada para funcionamento imediato com design futurista. Agora com 9 servidores e atualização automática via GitHub.</description>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+            <news>v1.3.1 - Adicionado 9º servidor (Xcloud), agora com 9 servidores disponíveis e sistema de atualização automática via GitHub</news>
+        </extension>
+    </addon>
+    
+    <addon id="repository.vortexplay" name="[B][COLOR orange]Vortex[/COLOR] [COLOR white]Play Repository[/COLOR][/B]" version="1.0.0" provider-name="[B][COLOR orange]BRAZ FERREIRA[/COLOR][COLOR blue]PluginStreaming[/COLOR][/B]">
+        <extension point="xbmc.addon.repository" name="VortexPlay Repository">
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/SEU_USUARIO/vortexplay-repo/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/SEU_USUARIO/vortexplay-repo/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/SEU_USUARIO/vortexplay-repo/main/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repositório oficial do VortexPlay</summary>
+            <description>Repositório oficial para o addon VortexPlay - Streaming de canais, filmes e séries com interface futurista</description>
+            <disclaimer>Este addon é fornecido "como está" sem garantias. Use por sua própria conta e risco.</disclaimer>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+</addons>
+

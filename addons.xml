@@ -20,9 +20,9 @@
     <addon id="repository.vortexplay" name="[B][COLOR orange]Vortex[/COLOR] [COLOR white]Play Repository[/COLOR][/B]" version="1.0.0" provider-name="[B][COLOR orange]BRAZ FERREIRA[/COLOR][COLOR blue]PluginStreaming[/COLOR][/B]">
         <extension point="xbmc.addon.repository" name="VortexPlay Repository">
             <dir>
-                <info compressed="false">https://raw.githubusercontent.com/SEU_USUARIO/vortexplay-repo/main/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/SEU_USUARIO/vortexplay-repo/main/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/SEU_USUARIO/vortexplay-repo/main/</datadir>
+                <info compressed="false">https://raw.githubusercontent.com/pluginstreaming/vortexplay-repo/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/pluginstreaming/vortexplay-repo/main/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/pluginstreaming/vortexplay-repo/main/</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
